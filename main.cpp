@@ -1,6 +1,15 @@
 #include <iostream>
+#include <thread>
+
+using namespace std;
+
+template <class T>
+T busqueda_paralela(){
+
+}
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    unsigned int n = thread::hardware_concurrency();
+    cout << n << endl;
     return 0;
 }
