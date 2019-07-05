@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(PC4
         catch.hpp
-        main.cpp)
+         main.cpp)
